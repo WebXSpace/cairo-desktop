@@ -1,0 +1,6 @@
+[submodule "packages/electron-webxapp"]
+	path = packages/electron-webxapp
+	url = https://github.com/WebXSpace/electron-webxapp.git
+[submodule "packages/webxui-vue3"]
+	path = packages/webxui-vue3
+	url = https://github.com/WebXSpace/webxui-vue3.git
