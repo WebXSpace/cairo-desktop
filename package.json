@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/electron-webxapp/*",
+      "packages/syscall",
+      "packages/webxui-vue3",
+      "packages/wcbridge",
+      "packages/render",
+      "packages/main",
+      "packages/**/*"
+    ],
+    "nohoist": []
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "yarn workspaces run dev",
+    "build": "yarn workspaces run build"
+  }
+}
