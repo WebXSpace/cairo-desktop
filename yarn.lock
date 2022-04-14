@@ -346,10 +346,10 @@
   dependencies:
     "@ethersproject/logger" "^5.6.0"
 
-"@ethersproject/providers@5.6.3":
-  version "5.6.3"
-  resolved "https://registry.npmmirror.com/@ethersproject/providers/-/providers-5.6.3.tgz#416c46e943319af6b114f47625be6325d10b3e32"
-  integrity sha512-PKTEZXjdAhGK/+hUwRLQqlGrwTRrK4D0FHEP2V9klUF8C6+AWfHkA3AoLI+a8oq5CUZoRAH0nMecYGkKxUjeSw==
+"@ethersproject/providers@5.6.4":
+  version "5.6.4"
+  resolved "https://registry.npmmirror.com/@ethersproject/providers/-/providers-5.6.4.tgz#1a49c211b57b0b2703c320819abbbfa35c83dff7"
+  integrity sha512-WAdknnaZ52hpHV3qPiJmKx401BLpup47h36Axxgre9zT+doa/4GC/Ne48ICPxTm0BqndpToHjpLP1ZnaxyE+vw==
   dependencies:
     "@ethersproject/abstract-provider" "^5.6.0"
     "@ethersproject/abstract-signer" "^5.6.0"
@@ -638,9 +638,9 @@
     magic-string "^0.25.7"
 
 "@rollup/plugin-typescript@^8.3.0":
-  version "8.3.1"
-  resolved "https://registry.npmmirror.com/@rollup/plugin-typescript/-/plugin-typescript-8.3.1.tgz#b7dc75ed6b4876e260b9e80624fab23bc98e4ac1"
-  integrity sha512-84rExe3ICUBXzqNX48WZV2Jp3OddjTMX97O2Py6D1KJaGSwWp0mDHXj+bCGNJqWHIEKDIT2U0sDjhP4czKi6cA==
+  version "8.3.2"
+  resolved "https://registry.npmmirror.com/@rollup/plugin-typescript/-/plugin-typescript-8.3.2.tgz#e1b719e2ed3e752bbc092001656c48378f2d15f0"
+  integrity sha512-MtgyR5LNHZr3GyN0tM7gNO9D0CS+Y+vflS4v/PHmrX17JCkHUYKvQ5jN5o3cz1YKllM3duXUqu3yOHwMPUxhDg==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     resolve "^1.17.0"
@@ -655,9 +655,9 @@
     picomatch "^2.2.2"
 
 "@rollup/pluginutils@^4.1.2":
-  version "4.2.0"
-  resolved "https://registry.npmmirror.com/@rollup/pluginutils/-/pluginutils-4.2.0.tgz#a14bbd058fdbba0a5647143b16ed0d86fb60bd08"
-  integrity sha512-2WUyJNRkyH5p487pGnn4tWAsxhEFKN/pT8CMgHshd5H+IXkOnKvKZwsz5ZWz+YCXkleZRAU5kwbfgF8CPfDRqA==
+  version "4.2.1"
+  resolved "https://registry.npmmirror.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
+  integrity sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==
   dependencies:
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
@@ -729,9 +729,9 @@
     "@types/chai" "*"
 
 "@types/chai@*", "@types/chai@^4.2.16":
-  version "4.3.0"
-  resolved "https://registry.npmmirror.com/@types/chai/-/chai-4.3.0.tgz#23509ebc1fa32f1b4d50d6a66c4032d5b8eaabdc"
-  integrity sha512-/ceqdqeRraGolFTcfoXNiqjyQhZzbINDngeoAq9GoHa8PPK1yNzTaxWjA6BFWp5Ua9JpXEMSS4s5i9tS0hOJtw==
+  version "4.3.1"
+  resolved "https://registry.npmmirror.com/@types/chai/-/chai-4.3.1.tgz#e2c6e73e0bdeb2521d00756d099218e9f5d90a04"
+  integrity sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==
 
 "@types/cssnano@^5.0.0":
   version "5.1.0"
@@ -788,19 +788,19 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*", "@types/node@^17.0.18":
-  version "17.0.23"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
-  integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
+  version "17.0.24"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-17.0.24.tgz#20ba1bf69c1b4ab405c7a01e950c4f446b05029f"
+  integrity sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==
 
 "@types/node@^14.6.2":
-  version "14.18.12"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-14.18.12.tgz#0d4557fd3b94497d793efd4e7d92df2f83b4ef24"
-  integrity sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==
+  version "14.18.13"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-14.18.13.tgz#6ad4d9db59e6b3faf98dcfe4ca9d2aec84443277"
+  integrity sha512-Z6/KzgyWOga3pJNS42A+zayjhPbf2zM3hegRQaOPnLOzEi86VV++6FLDWgR1LGrVCRufP/ph2daa3tEa5br1zA==
 
 "@types/node@^16.11.7":
-  version "16.11.26"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-16.11.26.tgz#63d204d136c9916fb4dcd1b50f9740fe86884e47"
-  integrity sha512-GZ7bu5A6+4DtG7q9GsoHXy3ALcgeIHP4NnL0Vv2wu0uUB/yQex26v0tf6/na1mm0+bS9Uw+0DFex7aaKr2qawQ==
+  version "16.11.27"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-16.11.27.tgz#5da19383bdbeda99bc0d09cfbb88cab7297ebc51"
+  integrity sha512-C1pD3kgLoZ56Uuy5lhfOxie4aZlA3UMGLX9rXteq4WitEZH6Rl80mwactt9QG0w0gLFlN/kLBTFnGXtDVWvWQw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1352,9 +1352,9 @@ async@0.9.x:
   integrity sha512-l6ToIJIotphWahxxHyzK9bnLR6kM4jJIIgLShZeqLY7iboHoGkdgFl7W2/Ivi4SkMJYGKqW8vSuk0uKUj6qsSw==
 
 async@^2.6.2:
-  version "2.6.3"
-  resolved "https://registry.npmmirror.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+  version "2.6.4"
+  resolved "https://registry.npmmirror.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
 
@@ -1774,9 +1774,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001317:
-  version "1.0.30001331"
-  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001331.tgz#41048f2a5cf0c3c6198f40207cd323388b3d4399"
-  integrity sha512-Y1xk6paHpUXKP/P6YjQv1xqyTbgAP05ycHBcRdQjTcyXlWol868sJJPlmk5ylOekw2BrucWes5jk+LvVd7WZ5Q==
+  version "1.0.30001332"
+  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001332.tgz#39476d3aa8d83ea76359c70302eafdd4a1d727dd"
+  integrity sha512-10T30NYOEQtN6C11YGg411yebhvpnC6Z102+B95eAsN0oB6KUs01ivE8u+G6FMIRtIrVlYXhL+LUwQ3/hXwDWw==
 
 chai-as-promised@^7.1.1:
   version "7.1.1"
@@ -3215,9 +3215,9 @@ etag@^1.8.1:
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
 ethers@^5.5.1, ethers@^5.5.4:
-  version "5.6.3"
-  resolved "https://registry.npmmirror.com/ethers/-/ethers-5.6.3.tgz#f59be7d660c12abcd4f1b1613f729da42a878c08"
-  integrity sha512-TkZAYGtbnzsGzEzqonLEMpOkmD5JIKCoWlAlj9ShAJlJszEkgKh3jVSeX1edLkYmqnpvJvGlBDK2y/HVe84LNg==
+  version "5.6.4"
+  resolved "https://registry.npmmirror.com/ethers/-/ethers-5.6.4.tgz#23629e9a7d4bc5802dfb53d4da420d738744b53c"
+  integrity sha512-62UIfxAQXdf67TeeOaoOoPctm5hUlYgfd0iW3wxfj7qRYKDcvvy0f+sJ3W2/Pyx77R8dblvejA8jokj+lS+ATQ==
   dependencies:
     "@ethersproject/abi" "5.6.1"
     "@ethersproject/abstract-provider" "5.6.0"
@@ -3237,7 +3237,7 @@ ethers@^5.5.1, ethers@^5.5.4:
     "@ethersproject/networks" "5.6.2"
     "@ethersproject/pbkdf2" "5.6.0"
     "@ethersproject/properties" "5.6.0"
-    "@ethersproject/providers" "5.6.3"
+    "@ethersproject/providers" "5.6.4"
     "@ethersproject/random" "5.6.0"
     "@ethersproject/rlp" "5.6.0"
     "@ethersproject/sha2" "5.6.0"
@@ -7441,9 +7441,9 @@ vite-plugin-svg-icons@^2.0.1:
     svgo "^2.8.0"
 
 vite@^2.6.14:
-  version "2.9.3"
-  resolved "https://registry.npmmirror.com/vite/-/vite-2.9.3.tgz#29a887bc21a2f90043f800618cb6848e861a604c"
-  integrity sha512-R9IrnWGallcXvOeWa1AA7CH9MdW/9X+cj3c11IHcq98OkNSzWzwb0dd69DvEZTIdxJNOZL3kHRCWC7L2QH0sNw==
+  version "2.9.4"
+  resolved "https://registry.npmmirror.com/vite/-/vite-2.9.4.tgz#3d1c5895ecacfcaf8e7e96316d4d4ca3dfbf983b"
+  integrity sha512-7pO6ruZMsyTpaPB7kGtW+yj15Ze5g+E4w4Ramk1sAJLIuI4uPd5sauqubmZNpq0Yc1vLVxoXRf2Uj+qWxk5aXw==
   dependencies:
     esbuild "^0.14.27"
     postcss "^8.4.12"

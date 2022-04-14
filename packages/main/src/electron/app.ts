@@ -12,7 +12,7 @@ export class WalletProxyApp extends ElectronApp {
 	constructor() {
 		super({
 			MAIN_DEV_URL: VITE_DEV_SERVER_URL,
-			MAIN_PROD_URL: 'file://' + resolve(__dirname, `../../../render/index.html`),
+			MAIN_PROD_URL: 'file://' + resolve(__dirname, `../render/index.html`),
 			MOD: mode,
 			ROOT_DIR: resolve(__dirname, '../'),
 			OPEN_DEV_TOOLS: openDevTools,
@@ -64,7 +64,7 @@ export class WalletProxyApp extends ElectronApp {
 				type: 'normal',
 				click: () => {
 					this.scm.stop();
-					app.quit();
+					app.exit();
 				},
 			},
 		]);

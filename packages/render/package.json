@@ -8,7 +8,7 @@
 		"server": "vite preview"
 	},
 	"dependencies": {
-		"@cario/syscall": "^0.0.1",
+		"@cairo/syscall": "^0.0.1",
 		"@soerenmartius/vue3-clipboard": "^0.1.2",
 		"animate.css": "^4.1.1",
 		"debounce": "^1.2.1",

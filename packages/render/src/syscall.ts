@@ -1,4 +1,4 @@
-import { Params, ServiceConfig, SysCall, SamplingData } from '@cario/syscall';
+import { Params, ServiceConfig, SysCall, SamplingData } from '@cairo/syscall';
 import { Ref, ref } from 'vue';
 import { IAppProvider } from '@webxspace/webxui';
 
