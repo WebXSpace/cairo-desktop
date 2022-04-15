@@ -49,8 +49,14 @@
 			"output": "./dist-electron",
 			"buildResources": "./assets"
 		},
-		"asar": false,
+		"asar": true,
+		"asarUnpack": [
+			"dist/**/*"
+		],
 		"afterSign": "electron-builder-notarize",
+		"win": {
+			"target": "nsis"
+		},
 		"mac": {
 			"hardenedRuntime": true,
 			"entitlements": "../../node_modules/electron-builder-notarize/entitlements.mac.inherit.plist",
