@@ -9,6 +9,7 @@
 	},
 	"dependencies": {
 		"@electron-webxapp/app": "^0.0.1",
+		"@electron-webxapp/utils": "^0.0.1",
 		"@cairo/wcbridge": "^0.0.1",
 		"electron-store": "^8.0.1",
 		"electron-updater": "^4.3.9",
@@ -51,13 +52,12 @@
 		"asar": false,
 		"afterSign": "electron-builder-notarize",
 		"mac": {
-			"hardenedRuntime": true,
+			"hardenedRuntime": false,
 			"entitlements": "../../node_modules/electron-builder-notarize/entitlements.mac.inherit.plist",
 			"target": {
 				"target": "zip",
 				"arch": [
-					"arm64",
-					"x64"
+					"arm64"
 				]
 			}
 		}

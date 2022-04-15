@@ -1,5 +1,4 @@
-import { getLogger } from '@electron-webxapp/app';
-import { ServiceChannel } from '@electron-webxapp/app';
+import { getLogger, ServiceChannel } from '@electron-webxapp/utils';
 import { WCBridge } from '@cairo/wcbridge';
 
 import yargs from 'yargs/yargs';

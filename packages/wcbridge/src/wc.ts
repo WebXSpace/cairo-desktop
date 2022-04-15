@@ -1,6 +1,6 @@
 import { Column, CreateDateColumn, Entity, Index, PrimaryGeneratedColumn } from 'typeorm';
 import websocket, { AddressInfo } from 'ws';
-import { getLogger, Storage } from '@electron-webxapp/app';
+import { getLogger, Storage } from '@electron-webxapp/utils';
 
 @Entity()
 class Channel {

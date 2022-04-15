@@ -1,7 +1,7 @@
 import { WalletProxyApp } from './electron/app';
 import { app } from 'electron';
 
-import { getLogger } from '@electron-webxapp/app';
+import { getLogger } from '@electron-webxapp/utils';
 
 async function main() {
 	const app = new WalletProxyApp();

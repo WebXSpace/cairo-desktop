@@ -2,9 +2,8 @@ import { app, BrowserWindow, Menu, nativeImage, Tray } from 'electron';
 import { resolve } from 'path';
 import { t } from '../locale';
 import { mode, openDevTools, VITE_DEV_SERVER_URL } from './env';
-import { SCM } from '@electron-webxapp/app';
 import { WCBridge } from './wcbridge';
-import { ElectronApp } from '@electron-webxapp/app';
+import { ElectronApp, SCM } from '@electron-webxapp/app';
 
 export class WalletProxyApp extends ElectronApp {
 	private _wcBridge!: WCBridge;

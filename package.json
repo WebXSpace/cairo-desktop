@@ -3,13 +3,13 @@
   "workspaces": {
     "packages": [
       "packages/electron-webxapp/packages/syscall",
+      "packages/electron-webxapp/packages/utils",
       "packages/electron-webxapp/packages/app",
       "packages/syscall",
       "packages/webxui-vue3",
       "packages/wcbridge",
       "packages/render",
-      "packages/main",
-      "packages/**/*"
+      "packages/main"
     ],
     "nohoist": []
   },
