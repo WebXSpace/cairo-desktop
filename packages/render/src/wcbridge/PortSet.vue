@@ -1,15 +1,15 @@
 <template>
 	<div class="port-set">
-		<form-field name="LISTEN ADDRESS">
+		<form-field :name="t('LISTEN ADDRESS')">
 			<copy-text class="address" :text="url"></copy-text>
 		</form-field>
-		<form-field name="PORT">
+		<form-field :name="t('PORT')">
 			<form-input v-model:text="text" type="number"></form-input>
 		</form-field>
 		<div class="range" :class="classes">1000 ~ 65535</div>
 		<wx-button
 			class="confirm"
-			text="Confirm"
+			:text="t('Confirm')"
 			color="var(--webx-background)"
 			background="var(--webx-success)"
 			:disabled="disabled"
@@ -24,6 +24,7 @@ import { computed } from '@vue/reactivity';
 import { defineComponent, ref } from 'vue';
 import { useWCBridge } from '../syscall';
 import { FormField, FormInput, wxButton, CopyText } from '@webxspace/webxui';
+import { useI18n } from 'vue-i18n';
 
 export default defineComponent({
 	components: {
@@ -78,7 +79,10 @@ export default defineComponent({
 			loading.value = false;
 		};
 
+		const { t } = useI18n();
+
 		return {
+			t,
 			url: wcBridge.url,
 			loading,
 			confirm,

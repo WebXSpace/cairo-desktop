@@ -27,7 +27,7 @@
 			</div>
 			<div class="buttons">
 				<wx-button
-					text="Stop"
+					:text="t('Stop')"
 					:loading="loading"
 					color="var(--webx-background)"
 					background="var(--webx-danger)"
@@ -35,7 +35,7 @@
 					v-if="status"
 				></wx-button>
 				<wx-button
-					text="Start"
+					:text="t('Start')"
 					:loading="loading"
 					color="var(--webx-background)"
 					background="var(--webx-success)"
