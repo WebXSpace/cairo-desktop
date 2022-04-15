@@ -1,7 +1,7 @@
 <template>
 	<div class="dashbord">
 		<div class="title">
-			<Icon class="icon" url="/icon.png"></Icon>
+			<Icon class="icon" url="./icon.png"></Icon>
 			<a class="title-text">WebXSpace wallet connect bridge - desktop</a>
 		</div>
 		<div class="status">
