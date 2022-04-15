@@ -2684,9 +2684,9 @@ ejs@^3.1.6:
   dependencies:
     jake "^10.6.1"
 
-electron-builder-notarize@^1.2.0:
+electron-builder-notarize@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.npmmirror.com/electron-builder-notarize/-/electron-builder-notarize-1.4.0.tgz#9e3609935eb70bf08f64fba255c3e4c43b0058e7"
+  resolved "https://mirrors.huaweicloud.com/repository/npm/electron-builder-notarize/-/electron-builder-notarize-1.4.0.tgz#9e3609935eb70bf08f64fba255c3e4c43b0058e7"
   integrity sha512-5CPVlzkG+SofK3VU3E6HKmdXW6Uu6q5WWvzXX6diLAlAy9qJsR0n99aNztVKKsPl6yjEbvT+MUl4ci0YCwOBRA==
   dependencies:
     electron-notarize "^1.1.1"
