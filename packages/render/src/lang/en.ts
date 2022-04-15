@@ -1,9 +1,12 @@
 export default {
-	Port: 'Port({port})',
+	Port: 'Listen({port})',
 	PORT: 'Port:',
-	Clients: 'Clients',
 	Confirm: 'Confirm',
 	Start: 'Start',
 	Stop: 'Stop',
-	'Listening ....': 'Listening ....',
+	Clients: 'Clients({clients})',
+	Stopped: 'Stopped',
+	'Listening ....': 'Running ....',
+	Topics: 'Channels({topics})',
+	'LISTEN ADDRESS': 'Listen:',
 };
