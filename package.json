@@ -2,7 +2,8 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/electron-webxapp/*",
+      "packages/electron-webxapp/packages/syscall",
+      "packages/electron-webxapp/packages/app",
       "packages/syscall",
       "packages/webxui-vue3",
       "packages/wcbridge",

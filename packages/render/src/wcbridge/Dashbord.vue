@@ -52,10 +52,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { computed, defineComponent, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useWCBridge } from '../syscall';
-import { Icon, Loading, wxButton, wxDialog } from '@webxspace/webxui';
+import { Icon, Loading, useAppProvider, wxButton, wxDialog } from '@webxspace/webxui';
 import PortSet from './PortSet.vue';
 import FlowChart from './FlowChart.vue';
 
@@ -95,7 +95,18 @@ export default defineComponent({
 
 		const showingPortSet = ref(false);
 
+		const appProvider = useAppProvider();
+
+		const titleDirection = computed(() => {
+			if (appProvider.isMacOS.value) {
+				return 'row-reverse';
+			}
+
+			return 'row';
+		});
+
 		return {
+			titleDirection,
 			showingPortSet,
 			loading,
 			start,
@@ -121,6 +132,7 @@ export default defineComponent({
 
 .title {
 	display: flex;
+	flex-direction: v-bind(titleDirection);
 	align-items: center;
 	user-select: none;
 	max-height: var(--webx-app-frame-sysbar-height);
@@ -134,12 +146,12 @@ export default defineComponent({
 	font-size: 0.7em;
 	color: var(--webx-primary);
 	font-weight: 600;
+	margin-inline: 0.5em;
 }
 
 .icon {
 	width: 1em;
 	height: 1em;
-	margin-right: 0.5em;
 }
 
 .status {
