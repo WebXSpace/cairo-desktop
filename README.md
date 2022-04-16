@@ -1,2 +1,3 @@
 # cario-desktop
-Wallet connect bridge server  implementation for desktop (windows/macOS)
+
+An Electron app, the wallet connect bridge server implementation for desktop (windows/macOS)
